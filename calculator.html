@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title></title>
+</head>
+<body>
+<span class="output" id = "output">0</span>
+<br><br>
+<span class="dotOperation" style="width:103px" id = "clear" onclick="clearNum()">C</span>
+<span class="dotOperation" onclick="Percent()">%</span>
+<span class="dotOrange" id = "divide" onclick="Operate('/')">/</span>
+<br><br>
+<span class="dot" onclick="newNum(7)">7</span>
+<span class="dot" onclick="newNum(8)">8</span>
+<span class="dot" onclick="newNum(9)">9</span>
+<span class="dotOrange" id = "multiply" onclick="Operate('x')">x</span>
+<br><br>
+<span class="dot" onclick="newNum(4)">4</span>
+<span class="dot" onclick="newNum(5)">5</span>
+<span class="dot" onclick="newNum(6)">6</span>
+<span class="dotOrange" id = "minus" onclick="Operate('-')">-</span>
+<br><br>
+<span class="dot" onclick="newNum(1)">1</span>
+<span class="dot" onclick="newNum(2)">2</span>
+<span class="dot" onclick="newNum(3)">3</span>
+<span class="dotOrange" id = "plus" onclick="Operate('+')">+</span>
+<br><br>
+<span class="dotZero" onclick="Zero()">0</span>
+<span class="dotOrange" onclick="Equals()">=</span>
+</body>
+</html>

@@ -1,0 +1,44 @@
+.output {
+    height: 75px;
+    width: 500px;
+    background-color: black;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    font-size: 65px;
+}
+
+.dot {
+    height: 50px;
+    width: 50px;
+    background-color: grey;
+    display: inline-block;
+    text-align: center;
+    font-size: 30px;
+}
+.dotZero {
+    height: 50px;
+    width: 158px;
+    background-color: grey;
+    display: inline-block;
+    text-align: center;
+    font-size: 30px;
+}
+
+.dotOperation {
+    height: 50px;
+    width: 50px;
+    background-color: lightgrey;
+    display: inline-block;
+    text-align: center;
+    font-size: 30px;
+}
+
+.dotOrange {
+    height: 50px;
+    width: 50px;
+    background-color: orange;
+    display: inline-block;
+    text-align: center;
+    font-size: 30px;
+}
